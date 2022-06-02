@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    transition: .3s;
+}
+.dev{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+    background-image: url(https://file.wikipediam.org/wikipedia/commons/thumb/d/d7/Desktop_computer_clipart_-_Yellow_theme.svg/2560px-Desktop_computer_clipart_-_Yellow_theme.svg.png);
+    background-size: cover;
+    background-position: top center;
+    transition: .3s;
+}
+h2{
+    color: white;
+}
+button{
+    margin: 40px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+#loader{
+    background: #000 url(loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index:100 ;
+    transition: .3s;
+}
